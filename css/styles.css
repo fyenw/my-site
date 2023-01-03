@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;700&family=Orbitron:wght@400;600&family=Press+Start+2P&display=swap');
+
+/* font-family: 'Chakra Petch', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Press Start 2P', cursive; */
+
+
+body {
+    background-color: #F2E5E5;
+}
+
+.navbar {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.navbar li {
+    
+    flex: 1; 
+    list-style: none;
+    text-align: center;
+    
+}
+
+.navbar a {
+    color: #2B3A55;
+}
+
+h1 {
+    color: #CE7777;
+    font-family: 'Press Start 2P', cursive;
+    margin-left: 1em;
+    padding-left: 0.5em;
+    margin-top: 1em;
+    padding-top: 0.5em;
+}
+
+
+
+h3 {
+    color: #2B3A55;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+
+.title {
+    margin-left: 1.5em;
+    padding-left: 1em;
+}
+
+h4 {
+    color: #F2E5E5;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+
+.stack {
+    background-color: #CE7777;
+    border: 5px solid #2B3A55;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+    margin: 2em;
+
+}
+
+.stack-language {
+    flex: 1;
+    padding: 1em;
+    margin: 1em;
+}
+
+.stack-language i {
+    flex: 1;
+    font-size: 70px;
+    transition: font-size 0.7s;
+} 
+
+.stack-language i:hover {
+    flex: 1;
+    font-size: 90px;
+} 
+
+.stack-title {
+    font-family: 'Orbitron', sans-serif;
+    color: #F2E5E5
+
+}
+
+
+
+
