@@ -40,11 +40,16 @@ h1 {
     padding-top: 0.5em;
 }
 
-
+.header h3 {
+    margin-left: 2em;
+    padding-left: 0.5em;
+}
 
 h3 {
     color: #2B3A55;
     font-family: 'Orbitron', sans-serif;
+    
+    
     
 }
 
